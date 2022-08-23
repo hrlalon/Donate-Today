@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-container {
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/donation1.jpg);
+}
+
+.header-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.header-section h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-section p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background: #FF5959;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.donate-today-container {
+    height: 678px;
+}
+
+.donate-today-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.donate-today-section h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.donate-today-section p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.ammounts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.ammounts h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-right: 22px;
+}
+
+.padd-on-ammount {
+    padding: 44px 22px;
+    color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.marked-ammount {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    padding: 44px 22px;
+    border-radius: 5px;
+}
+.donate-input-form{
+    border: none;
+    outline: none;
+    width: 192px;
+    padding: 10px 100px;
+}
+.donate-input-form::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #B3B3B3;
+}
+hr{
+    width: 55%;
+    text-align: center;
+    margin-bottom: 30px;
+}
